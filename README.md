@@ -13,3 +13,8 @@ Now you can load the theme with like this:
 `M-x load-theme RET xmas`
 
 or put `(load-theme 'xmas t) in your .emacs file.
+
+
+# Preview
+
+![Preview of xmas theme](/preview.png "Preview of xmas theme")
