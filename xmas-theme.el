@@ -22,7 +22,7 @@
 
 
 (deftheme xmas
-  "Created 2013-11-07.")
+  "Created 2013-11-07 by John Carlyle & Morgan McDermott")
 
 (custom-theme-set-faces
  'xmas
