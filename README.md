@@ -1,6 +1,6 @@
 # About
 
-xmas-theme is a Emacs 24 theme with terrifying obnoxious that are somehow easy on the eyes.
+xmas-theme is a Emacs 24 theme with terrifying obnoxious colors. So soothing on the eyes.
 
 # Installation
 
@@ -13,6 +13,16 @@ Now you can load the theme with like this:
 `M-x load-theme RET xmas`
 
 or put `(load-theme 'xmas t)` in your .emacs file.
+
+Better yet put this in your .emacs file:
+
+```
+(load-theme
+ (if (string-match-p (regexp-quote "Dec")
+                     (current-time-string))
+     'xmas
+   'your-fav-theme))
+```
 
 
 # Preview
